@@ -19,7 +19,7 @@ from streamlit_folium import st_folium
 
 st.set_page_config(
     page_title="Kühle Karte Neckargemünd",
-    page_icon="🌳",
+    page_icon="🧊",
     layout="wide"
 )
 
@@ -65,7 +65,7 @@ gdf = load_data()
 # SIDEBAR
 # -------------------------------------------------
 
-st.sidebar.title("🌳 Kühle Karte")
+st.sidebar.title("🧊 Kühle Karte")
 
 st.sidebar.markdown("""
 Diese interaktive Karte zeigt Aufenthaltsorte
@@ -121,7 +121,7 @@ st.sidebar.markdown("""
 # HEADER
 # -------------------------------------------------
 
-st.title("🌳 Kühle Karte Neckargemünd")
+st.title("🧊 Kühle Karte Neckargemünd")
 
 st.markdown("""
 Willkommen bei der interaktiven Kühlen Karte für
