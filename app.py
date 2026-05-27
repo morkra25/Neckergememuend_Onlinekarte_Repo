@@ -53,7 +53,7 @@ section[data-testid="stSidebar"] {
 def load_data():
 
     gdf = gpd.read_file(
-        r"C:\Users\morit\OneDrive\Dokumente\Geoscripting_Dateien\Sonstiges\baenke_neckergemuend.geojson"
+        "baenke_neckergemuend.geojson"
     )
 
     return gdf
